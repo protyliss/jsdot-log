@@ -1,0 +1,19 @@
+{
+  "name": "@lisslet/jsdot-log",
+  "version": "1.0.0",
+  "description": "pretty console.log",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "protyliss <protyliss@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "pump": "^3.0.0",
+    "typescript": "^3.5.3"
+  }
+}
