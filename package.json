@@ -2,8 +2,8 @@
   "name": "@lisslet/jsdot-log",
   "version": "1.0.1",
   "description": "pretty console.log",
+  "type": "commonjs",
   "main": "dist/index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

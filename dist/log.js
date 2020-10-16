@@ -27,7 +27,7 @@ const $colors = {
 };
 const textColors = ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan'];
 const { reset } = $colors;
-const _colorWrap = /\(([a-z.]+):(.+)\)/g;
+const _colorWrap = /\(([a-z.]+):([^()]+)\)/g;
 const _colorArrow = /^([a-z.]+)=>$/;
 class Log {
     constructor(_parent, prefix) {
